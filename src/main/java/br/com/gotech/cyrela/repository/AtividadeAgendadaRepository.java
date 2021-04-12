@@ -9,6 +9,5 @@ import java.util.List;
 public interface AtividadeAgendadaRepository extends JpaRepository<AtividadeAgendadaEntity, Long>{
 
     List<AtividadeAgendadaEntity> findByDataInicio (Date dataInicio);
-    List<AtividadeAgendadaEntity> findByDataInicioAAndOcorrencia_Unidade_Bloco_Empreendimento_IdEmpreendimento (Date dataInicio, Long idEmpreendimento);
     List<AtividadeAgendadaEntity> findByDataInicioAndOcorrencia_Unidade_Bloco_Empreendimento_IdEmpreendimento (Date dataInicio, Long idEmpreendimento);
 }

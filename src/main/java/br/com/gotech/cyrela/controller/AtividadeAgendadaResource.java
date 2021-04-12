@@ -76,7 +76,7 @@ public class AtividadeAgendadaResource {
 
 
         if(dataInicio != null && idEmpreendimento != null) {
-            return atividadeAgendadaRepository.findByDataInicioAAndOcorrencia_Unidade_Bloco_Empreendimento_IdEmpreendimento(DateHelper.parseDate(dataInicio), idEmpreendimento);
+            return atividadeAgendadaRepository.findByDataInicioAndOcorrencia_Unidade_Bloco_Empreendimento_IdEmpreendimento(DateHelper.parseDate(dataInicio), idEmpreendimento);
         }else if(dataInicio != null) {
             return atividadeAgendadaRepository.findByDataInicio(DateHelper.parseDate(dataInicio));
         }else{

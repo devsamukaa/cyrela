@@ -100,6 +100,7 @@ Com base na data e ID de empreedimento enviados, retorna as atividades agendadas
 1. Realize o clone deste projeto;
 2. Abra este projeto com a IDE IntelliJ e realize o download de todas as dependências;
 3. Execute o `"Run"` no método `main(String[] args)` na Classe `src/main/java/br.com/gotech/cyrela/CyrelaApplication`, conforme à imagem abaixo.
+![Startando a aplicação](https://semparar.vteximg.com.br/arquivos/rn_pj_cy.png?v=1)
 
 ##### 2. Importe a Collection das APIs
 1. Tenha o Postman instalado em seu computador;

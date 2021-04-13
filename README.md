@@ -97,15 +97,14 @@ Com base na data e ID de empreedimento enviados, retorna as atividades agendadas
 
 ## Para testar as APIs
 ##### 1. Clone do Projeto + Instalação do banco de dados H2
-1. Instale o Banco de dados H2 no seu computador na pasta padrão (C:); 
-2. Realize o clone deste projeto;
-3. Abra este projeto com a IDE IntelliJ e realize o download de todas as dependências;
-4. Execute o `"Run"` no método `main(String[] args)` na Classe `src/main/java/br.com/gotech/cyrela/CyrelaApplication`, conforme à imagem abaixo.
+1. Realize o clone deste projeto;
+2. Abra este projeto com a IDE IntelliJ e realize o download de todas as dependências;
+3. Execute o `"Run"` no método `main(String[] args)` na Classe `src/main/java/br.com/gotech/cyrela/CyrelaApplication`, conforme à imagem abaixo.
 
-##### 2. Importe as Collections
+##### 2. Importe a Collection das APIs
 1. Tenha o Postman instalado em seu computador;
-2. Baixe separadamente o arquivo da versão que mais se adequa ao Postman `(v1 ou v2)`;
-3. Importe à Collectiona ao seu postman.
+2. Baixe separadamente o arquivo da versão que mais se adequa ao seu Postman `(v1 ou v2)`;
+3. Importe a Collection que mais se adequa.
 [Collection v1](https://github.com/samueltj/cyrela/blob/main/src/main/resources/misc/cyrela_collection_v1.json)
 [Collection v2](https://github.com/samueltj/cyrela/blob/main/src/main/resources/misc/cyrela_collection_v2.json)
 ![Collection das APIs](https://semparar.vteximg.com.br/arquivos/en_cy_ps.png?v=3)

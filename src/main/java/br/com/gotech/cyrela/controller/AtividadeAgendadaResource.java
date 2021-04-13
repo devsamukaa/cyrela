@@ -93,6 +93,10 @@ public class AtividadeAgendadaResource {
 
         List<DiaAgendamento> listaDeDias = new ArrayList<DiaAgendamento>();
 
+        if(mes > 12){
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Os parâmetros não foram passados adequadamente");
+        }
+
         try{
             Calendar data = new GregorianCalendar(ano, mes == 0 ? 0 : mes -1, 1);
             int daysInMonth = data.getActualMaximum(Calendar.DAY_OF_MONTH);

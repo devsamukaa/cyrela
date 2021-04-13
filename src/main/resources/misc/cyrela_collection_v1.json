@@ -1,0 +1,1240 @@
+{
+	"id": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+	"name": "Cyrela",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"name": "AtividadeAgendada",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"order": [
+				"daac14bf-41ce-dabe-7f56-2b77d744365c",
+				"13db7c01-1d2d-eb6b-5162-696d75feb7f1",
+				"948c877f-d045-6b36-fe38-7cc80c7e88cd",
+				"c99fcb67-a06a-471a-7047-54dbf0de9463",
+				"8e271603-8eb1-0571-b946-2e8ca0666e51",
+				"d5192c36-e313-13b2-2b86-3755fc7fb13c"
+			],
+			"owner": "6514489",
+			"folders_order": [],
+			"id": "8b89560f-681e-1a29-80fd-61833b37cc5b"
+		},
+		{
+			"name": "Bandeira",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"order": [
+				"19bfed9b-b5a8-0631-7062-e79b59f197a3",
+				"94a467f2-0efc-f73d-ef8e-ff146e24520a",
+				"5885c32d-5929-79cb-8439-392514baff54",
+				"fcbb0254-be0c-30e0-8522-89da02e6aa22"
+			],
+			"owner": "6514489",
+			"folders_order": [],
+			"id": "8e877830-45d7-d0ab-5d88-4c3b1d146c60"
+		},
+		{
+			"name": "Bloco",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"order": [
+				"d4c91746-4e82-ed26-3930-9851ed321cb0",
+				"1b6f3f67-c55d-59ff-2a75-f5f98fe700f5",
+				"e3485d27-6202-8658-751f-04580bc49b93",
+				"b1d564c9-e054-235e-005e-dcf04aa85ea7"
+			],
+			"owner": "6514489",
+			"folders_order": [],
+			"id": "c023e2d5-5ff3-81f7-1086-24c7f0359bad"
+		},
+		{
+			"name": "ClienteDaUnidade",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"order": [
+				"0ebd403c-14e4-85e0-60ce-601dd93f0c43",
+				"87374263-0326-ea17-e28e-ef82f0bdabbb",
+				"2be5c35f-bfba-b96e-80ff-23c32c71910c",
+				"02902cb1-e97a-c29c-8842-85d6047f3bcf"
+			],
+			"owner": "6514489",
+			"folders_order": [],
+			"id": "7d5f00fc-ec11-7225-0435-89edab737f58"
+		},
+		{
+			"name": "Empreendimento",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"order": [
+				"0f3e34f4-844b-cbe3-64ac-51b333f330d8",
+				"81a8ced1-d7aa-98fc-ef26-60cab98263bf",
+				"11a01a9e-9de7-95c4-1fb4-4873a79b8aaa",
+				"3d74457b-3e73-9406-d68f-945a4eef4e87"
+			],
+			"owner": "6514489",
+			"folders_order": [],
+			"id": "77b105e8-88a1-6887-cdb8-6da90816d65c"
+		},
+		{
+			"name": "TipoAtividadeAgendada",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"order": [
+				"144449ed-4c73-4fc2-bf93-98a36075d649",
+				"08255f0c-eeec-18f8-9d47-0835aaee0ccc",
+				"3bd0001d-6e6b-85e6-0645-1590f5aefc7e",
+				"03e1eea6-c798-f6dd-0b7d-89946c273c78"
+			],
+			"owner": "6514489",
+			"folders_order": [],
+			"id": "61894a3f-587f-ac83-b93a-bc3294265a69"
+		},
+		{
+			"name": "Unidade",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"order": [
+				"6235cf38-9340-d671-4ecb-de0778bc3e19",
+				"8a7f184e-8d48-5b4b-0049-49c5e36e3b01",
+				"6566676a-f888-e13d-178f-6c55c48ed041",
+				"40d09544-f828-e46f-9086-c7f7f982b08b"
+			],
+			"owner": "6514489",
+			"folders_order": [],
+			"id": "ffd32367-5b8f-a8be-b6d0-ae8a0acaf9e0"
+		}
+	],
+	"folders_order": [
+		"8e877830-45d7-d0ab-5d88-4c3b1d146c60",
+		"61894a3f-587f-ac83-b93a-bc3294265a69",
+		"77b105e8-88a1-6887-cdb8-6da90816d65c",
+		"7d5f00fc-ec11-7225-0435-89edab737f58",
+		"c023e2d5-5ff3-81f7-1086-24c7f0359bad",
+		"ffd32367-5b8f-a8be-b6d0-ae8a0acaf9e0",
+		"8b89560f-681e-1a29-80fd-61833b37cc5b"
+	],
+	"timestamp": 1618066894849,
+	"owner": "6514489",
+	"public": false,
+	"requests": [
+		{
+			"id": "02902cb1-e97a-c29c-8842-85d6047f3bcf",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/cliente_da_unidade/1",
+			"folder": "7d5f00fc-ec11-7225-0435-89edab737f58",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618106220102,
+			"name": "cliente_da_unidade DELETE",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\n\t\"cpf\": \"446.442.348-50\",\n\t\"nome\": \"Samuel Rocha da Silva\"\t\n}"
+		},
+		{
+			"id": "03e1eea6-c798-f6dd-0b7d-89946c273c78",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/tipo_atividade/1",
+			"folder": "61894a3f-587f-ac83-b93a-bc3294265a69",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618105816663,
+			"name": "tipo_atividade DELETE",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\n\t\"nome\":\"Vistoria e Manutenção\"\n}"
+		},
+		{
+			"id": "08255f0c-eeec-18f8-9d47-0835aaee0ccc",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/tipo_atividade",
+			"folder": "61894a3f-587f-ac83-b93a-bc3294265a69",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618105783985,
+			"name": "tipo_atividade POST",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\n\t\"nome\":\"Vistoria e Manutenção\"\n}"
+		},
+		{
+			"id": "0ebd403c-14e4-85e0-60ce-601dd93f0c43",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/cliente_da_unidade",
+			"folder": "7d5f00fc-ec11-7225-0435-89edab737f58",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618071954157,
+			"name": "cliente_da_unidade GET",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "0ebd403c-14e4-85e0-60ce-601dd93f0c43",
+			"rawModeData": "{\n\t\"cpf\": \"446.442.348-50\",\n\t\"nome\": \"Samuel Rocha da Silva\"\t\n}"
+		},
+		{
+			"id": "0f3e34f4-844b-cbe3-64ac-51b333f330d8",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/empreendimento",
+			"folder": "77b105e8-88a1-6887-cdb8-6da90816d65c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618071474640,
+			"name": "empreendimento GET",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "0f3e34f4-844b-cbe3-64ac-51b333f330d8",
+			"rawModeData": "{\n\t\"idEmpreendimento\":36,\n\t\"nome\":\"Living Adalberto Kemeny\",\n\t\"logradouro\": \"Rua Adalberto Kemeny\",\n\t\"numero\": 119,\n\t\"bairro\": \"Barra Funda\",\n\t\"cidade\": \"São Paulo\",\n\t\"uf\": \"SP\",\n\t\"cep\":\"01139-050\",\n\t\"bandeira\":{\n\t\t\"idBandeira\":2\n\t}\n}"
+		},
+		{
+			"id": "11a01a9e-9de7-95c4-1fb4-4873a79b8aaa",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/empreendimento/1",
+			"folder": "77b105e8-88a1-6887-cdb8-6da90816d65c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618105903277,
+			"name": "empreendimento PUT",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\n\t\"idEmpreendimento\":36,\n\t\"nome\":\"Living Adalberto Kemeny\",\n\t\"logradouro\": \"Rua Adalberto Kemeny\",\n\t\"numero\": 119,\n\t\"bairro\": \"Barra Funda\",\n\t\"cidade\": \"São Paulo\",\n\t\"uf\": \"SP\",\n\t\"cep\":\"01139-050\",\n\t\"bandeira\":{\n\t\t\"idBandeira\":2\n\t}\n}"
+		},
+		{
+			"id": "13db7c01-1d2d-eb6b-5162-696d75feb7f1",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/atividade_agendada",
+			"folder": "8b89560f-681e-1a29-80fd-61833b37cc5b",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618106529556,
+			"name": "atividade_agendada POST",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\n\t\"dataInicio\": \"12/04/2021\",\n\t\"assunto\": \"Vazamento na Pia\",\n\t\"tipoAtividade\": {\n\t\t\"idTipoAtividade\": 2\n\t},\n\t\"ocorrencia\":{\n\t\t\"descricao\": \"Poderiam vir o quanto antes corrigir um vazamento na Pia da minha cozinha? Um dos canos estourou e está indo água para todo lado! :(\",\n\t\t\"unidade\":{\n\t\t\t\"idUnidade\":6\n\t\t}\n\t}\n}"
+		},
+		{
+			"id": "144449ed-4c73-4fc2-bf93-98a36075d649",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/tipo_atividade",
+			"folder": "61894a3f-587f-ac83-b93a-bc3294265a69",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618067722539,
+			"name": "tipo_atividade GET",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "144449ed-4c73-4fc2-bf93-98a36075d649",
+			"rawModeData": "{\n\t\"nome\":\"Vistoria e Manutenção\"\n}"
+		},
+		{
+			"id": "19bfed9b-b5a8-0631-7062-e79b59f197a3",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/bandeira",
+			"folder": "8e877830-45d7-d0ab-5d88-4c3b1d146c60",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618105678993,
+			"name": "bandeira GET",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\n\t\"nome\":\"Vivaz\"\n}"
+		},
+		{
+			"id": "1b6f3f67-c55d-59ff-2a75-f5f98fe700f5",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/bloco",
+			"folder": "c023e2d5-5ff3-81f7-1086-24c7f0359bad",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618337197721,
+			"name": "bloco POST",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\r\n    \"nome\": \"BLOCO A3\",\r\n    \"empreendimento\": {\r\n        \"idEmpreendimento\": 1\r\n    }\r\n}"
+		},
+		{
+			"id": "2be5c35f-bfba-b96e-80ff-23c32c71910c",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/cliente_da_unidade/1",
+			"folder": "7d5f00fc-ec11-7225-0435-89edab737f58",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618106222701,
+			"name": "cliente_da_unidade PUT",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\n\t\"cpf\": \"446.442.348-50\",\n\t\"nome\": \"Samuel Rocha da Silva\"\t\n}"
+		},
+		{
+			"id": "3bd0001d-6e6b-85e6-0645-1590f5aefc7e",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/tipo_atividade/1",
+			"folder": "61894a3f-587f-ac83-b93a-bc3294265a69",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618105799433,
+			"name": "tipo_atividade PUT",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\n\t\"nome\":\"Vistoria e Manutenção\"\n}"
+		},
+		{
+			"id": "3d74457b-3e73-9406-d68f-945a4eef4e87",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/empreendimento/1",
+			"folder": "77b105e8-88a1-6887-cdb8-6da90816d65c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618105915972,
+			"name": "empreendimento DELETE",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\n\t\"idEmpreendimento\":36,\n\t\"nome\":\"Living Adalberto Kemeny\",\n\t\"logradouro\": \"Rua Adalberto Kemeny\",\n\t\"numero\": 119,\n\t\"bairro\": \"Barra Funda\",\n\t\"cidade\": \"São Paulo\",\n\t\"uf\": \"SP\",\n\t\"cep\":\"01139-050\",\n\t\"bandeira\":{\n\t\t\"idBandeira\":2\n\t}\n}"
+		},
+		{
+			"id": "40d09544-f828-e46f-9086-c7f7f982b08b",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/unidade/1",
+			"folder": "ffd32367-5b8f-a8be-b6d0-ae8a0acaf9e0",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618106430951,
+			"name": "unidade DELETE",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\n\t\"numero\": \"APTO 6\",\n\t\"bloco\": {\n\t\t\"idBloco\": 33\n\t},\n\t\"clienteDaUnidade\":{\n\t\t\"idClienteDaUnidade\": 6\n\t}\n}"
+		},
+		{
+			"id": "5885c32d-5929-79cb-8439-392514baff54",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/bandeira/1",
+			"folder": "8e877830-45d7-d0ab-5d88-4c3b1d146c60",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618105710371,
+			"name": "bandeira PUT",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\n\t\"nome\":\"Vivaz\"\n}"
+		},
+		{
+			"id": "6235cf38-9340-d671-4ecb-de0778bc3e19",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/unidade",
+			"folder": "ffd32367-5b8f-a8be-b6d0-ae8a0acaf9e0",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618106022636,
+			"name": "unidade GET",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\n\t\"numero\": \"APTO 6\",\n\t\"bloco\": {\n\t\t\"idBloco\": 33\n\t},\n\t\"clienteDaUnidade\":{\n\t\t\"idClienteDaUnidade\": 6\n\t}\n}"
+		},
+		{
+			"id": "6566676a-f888-e13d-178f-6c55c48ed041",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/unidade/1",
+			"folder": "ffd32367-5b8f-a8be-b6d0-ae8a0acaf9e0",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618106442336,
+			"name": "unidade PUT",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\n\t\"numero\": \"APTO 6\",\n\t\"bloco\": {\n\t\t\"idBloco\": 33\n\t},\n\t\"clienteDaUnidade\":{\n\t\t\"idClienteDaUnidade\": 6\n\t}\n}"
+		},
+		{
+			"id": "81a8ced1-d7aa-98fc-ef26-60cab98263bf",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/empreendimento",
+			"folder": "77b105e8-88a1-6887-cdb8-6da90816d65c",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618337213882,
+			"name": "empreendimento POST",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\r\n    \"nome\": \"Living Adalberto Kemeny\",\r\n    \"logradouro\": \"Rua Adalberto Kemeny\",\r\n    \"numero\": \"119\",\r\n    \"bairro\": \"Barra Funda\",\r\n    \"cidade\": \"São Paulo\",\r\n    \"uf\": \"SP\",\r\n    \"cep\": \"01139-050\",\r\n    \"bandeira\": {\r\n        \"idBandeira\": 2\r\n    }\r\n}"
+		},
+		{
+			"id": "87374263-0326-ea17-e28e-ef82f0bdabbb",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/cliente_da_unidade",
+			"folder": "7d5f00fc-ec11-7225-0435-89edab737f58",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618337201277,
+			"name": "cliente_da_unidade POST",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\r\n    \"cpf\": \"054.111.150-78\",\r\n    \"nome\": \"José Caldeira Firmino\"\r\n}"
+		},
+		{
+			"id": "8a7f184e-8d48-5b4b-0049-49c5e36e3b01",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/unidade",
+			"folder": "ffd32367-5b8f-a8be-b6d0-ae8a0acaf9e0",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618106400958,
+			"name": "unidade POST",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\n\t\"numero\": \"APTO 6\",\n\t\"bloco\": {\n\t\t\"idBloco\": 33\n\t},\n\t\"clienteDaUnidade\":{\n\t\t\"idClienteDaUnidade\": 6\n\t}\n}"
+		},
+		{
+			"id": "8e271603-8eb1-0571-b946-2e8ca0666e51",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/atividade_agendada/agendamentos_no_dia?dataInicio=12/04/2021",
+			"folder": "8b89560f-681e-1a29-80fd-61833b37cc5b",
+			"queryParams": [
+				{
+					"key": "dataInicio",
+					"value": "12/04/2021",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618106049073,
+			"name": "atividade_agendada/agendamentos_no_dia",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "948c877f-d045-6b36-fe38-7cc80c7e88cd",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/atividade_agendada/1",
+			"folder": "8b89560f-681e-1a29-80fd-61833b37cc5b",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618106564835,
+			"name": "atividade_agendada PUT",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\n\t\"dataInicio\": \"12/04/2021\",\n\t\"assunto\": \"Vazamento na Pia\",\n\t\"tipoAtividade\": {\n\t\t\"idTipoAtividade\": 2\n\t},\n\t\"ocorrencia\":{\n\t\t\"descricao\": \"Poderiam vir o quanto antes corrigir um vazamento na Pia da minha cozinha? Um dos canos estourou e está indo água para todo lado! :(\",\n\t\t\"unidade\":{\n\t\t\t\"idUnidade\":6\n\t\t}\n\t}\n}"
+		},
+		{
+			"id": "94a467f2-0efc-f73d-ef8e-ff146e24520a",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/bandeira",
+			"folder": "8e877830-45d7-d0ab-5d88-4c3b1d146c60",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618337208587,
+			"name": "bandeira POST",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\n\t\"nome\":\"Vivaz\"\n}"
+		},
+		{
+			"id": "b1d564c9-e054-235e-005e-dcf04aa85ea7",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/bloco/1",
+			"folder": "c023e2d5-5ff3-81f7-1086-24c7f0359bad",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618106377925,
+			"name": "bloco DELETE",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\n\t\"nome\": \"BLOCO A1\",\n\t\"empreendimento\": {\n\t\t\"idEmpreendimento\":1\n\t}\t\n}"
+		},
+		{
+			"id": "c99fcb67-a06a-471a-7047-54dbf0de9463",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/atividade_agendada/1",
+			"folder": "8b89560f-681e-1a29-80fd-61833b37cc5b",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618106566118,
+			"name": "atividade_agendada PUT copy",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\n\t\"dataInicio\": \"12/04/2021\",\n\t\"assunto\": \"Vazamento na Pia\",\n\t\"tipoAtividade\": {\n\t\t\"idTipoAtividade\": 2\n\t},\n\t\"ocorrencia\":{\n\t\t\"descricao\": \"Poderiam vir o quanto antes corrigir um vazamento na Pia da minha cozinha? Um dos canos estourou e está indo água para todo lado! :(\",\n\t\t\"unidade\":{\n\t\t\t\"idUnidade\":6\n\t\t}\n\t}\n}"
+		},
+		{
+			"id": "d4c91746-4e82-ed26-3930-9851ed321cb0",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/bloco",
+			"folder": "c023e2d5-5ff3-81f7-1086-24c7f0359bad",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618074297274,
+			"name": "bloco GET",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"isFromCollection": true,
+			"collectionRequestId": "d4c91746-4e82-ed26-3930-9851ed321cb0",
+			"rawModeData": "{\n\t\"nome\": \"BLOCO A1\",\n\t\"empreendimento\": {\n\t\t\"idEmpreendimento\":1\n\t}\t\n}"
+		},
+		{
+			"id": "d5192c36-e313-13b2-2b86-3755fc7fb13c",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/atividade_agendada/calendario_agendamento?mes=4&ano=2021&idEmpreendimento=1",
+			"folder": "8b89560f-681e-1a29-80fd-61833b37cc5b",
+			"queryParams": [
+				{
+					"key": "mes",
+					"value": "4",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "ano",
+					"value": "2021",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "idEmpreendimento",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618338053765,
+			"name": "atividade_agendada/calendario_agendamento",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": ""
+		},
+		{
+			"id": "daac14bf-41ce-dabe-7f56-2b77d744365c",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/atividade_agendada",
+			"folder": "8b89560f-681e-1a29-80fd-61833b37cc5b",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618106512130,
+			"name": "atividade_agendada GET",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\n\t\"dataInicio\": \"12/04/2021\",\n\t\"assunto\": \"Vazamento na Pia\",\n\t\"tipoAtividade\": {\n\t\t\"idTipoAtividade\": 2\n\t},\n\t\"ocorrencia\":{\n\t\t\"descricao\": \"Poderiam vir o quanto antes corrigir um vazamento na Pia da minha cozinha? Um dos canos estourou e está indo água para todo lado! :(\",\n\t\t\"unidade\":{\n\t\t\t\"idUnidade\":6\n\t\t}\n\t}\n}"
+		},
+		{
+			"id": "e3485d27-6202-8658-751f-04580bc49b93",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/bloco/1",
+			"folder": "c023e2d5-5ff3-81f7-1086-24c7f0359bad",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618106374864,
+			"name": "bloco PUT",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\n\t\"nome\": \"BLOCO A1\",\n\t\"empreendimento\": {\n\t\t\"idEmpreendimento\":1\n\t}\t\n}"
+		},
+		{
+			"id": "fcbb0254-be0c-30e0-8522-89da02e6aa22",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Accept",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/bandeira/1",
+			"folder": "8e877830-45d7-d0ab-5d88-4c3b1d146c60",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1618105735671,
+			"name": "bandeira DELETE",
+			"description": "",
+			"collectionId": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+			"responses": [],
+			"rawModeData": "{\n\t\"nome\":\"Vivaz\"\n}"
+		}
+	]
+}

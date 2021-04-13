@@ -1,0 +1,855 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Cyrela",
+		"_postman_id": "1212554c-36b7-8ea5-1530-18a52e56fbb1",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Bandeira",
+			"description": "",
+			"item": [
+				{
+					"name": "bandeira GET",
+					"request": {
+						"url": "http://localhost:8080/bandeira",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nome\":\"Vivaz\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "bandeira POST",
+					"request": {
+						"url": "http://localhost:8080/bandeira",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nome\":\"Vivaz\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "bandeira PUT",
+					"request": {
+						"url": "http://localhost:8080/bandeira/1",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nome\":\"Vivaz\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "bandeira DELETE",
+					"request": {
+						"url": "http://localhost:8080/bandeira/1",
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nome\":\"Vivaz\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "TipoAtividadeAgendada",
+			"description": "",
+			"item": [
+				{
+					"name": "tipo_atividade GET",
+					"request": {
+						"url": "http://localhost:8080/tipo_atividade",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nome\":\"Vistoria e Manutenção\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "tipo_atividade POST",
+					"request": {
+						"url": "http://localhost:8080/tipo_atividade",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nome\":\"Vistoria e Manutenção\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "tipo_atividade PUT",
+					"request": {
+						"url": "http://localhost:8080/tipo_atividade/1",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nome\":\"Vistoria e Manutenção\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "tipo_atividade DELETE",
+					"request": {
+						"url": "http://localhost:8080/tipo_atividade/1",
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nome\":\"Vistoria e Manutenção\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Empreendimento",
+			"description": "",
+			"item": [
+				{
+					"name": "empreendimento GET",
+					"request": {
+						"url": "http://localhost:8080/empreendimento",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"idEmpreendimento\":36,\n\t\"nome\":\"Living Adalberto Kemeny\",\n\t\"logradouro\": \"Rua Adalberto Kemeny\",\n\t\"numero\": 119,\n\t\"bairro\": \"Barra Funda\",\n\t\"cidade\": \"São Paulo\",\n\t\"uf\": \"SP\",\n\t\"cep\":\"01139-050\",\n\t\"bandeira\":{\n\t\t\"idBandeira\":2\n\t}\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "empreendimento POST",
+					"request": {
+						"url": "http://localhost:8080/empreendimento",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"Living Adalberto Kemeny\",\r\n    \"logradouro\": \"Rua Adalberto Kemeny\",\r\n    \"numero\": \"119\",\r\n    \"bairro\": \"Barra Funda\",\r\n    \"cidade\": \"São Paulo\",\r\n    \"uf\": \"SP\",\r\n    \"cep\": \"01139-050\",\r\n    \"bandeira\": {\r\n        \"idBandeira\": 2\r\n    }\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "empreendimento PUT",
+					"request": {
+						"url": "http://localhost:8080/empreendimento/1",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"idEmpreendimento\":36,\n\t\"nome\":\"Living Adalberto Kemeny\",\n\t\"logradouro\": \"Rua Adalberto Kemeny\",\n\t\"numero\": 119,\n\t\"bairro\": \"Barra Funda\",\n\t\"cidade\": \"São Paulo\",\n\t\"uf\": \"SP\",\n\t\"cep\":\"01139-050\",\n\t\"bandeira\":{\n\t\t\"idBandeira\":2\n\t}\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "empreendimento DELETE",
+					"request": {
+						"url": "http://localhost:8080/empreendimento/1",
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"idEmpreendimento\":36,\n\t\"nome\":\"Living Adalberto Kemeny\",\n\t\"logradouro\": \"Rua Adalberto Kemeny\",\n\t\"numero\": 119,\n\t\"bairro\": \"Barra Funda\",\n\t\"cidade\": \"São Paulo\",\n\t\"uf\": \"SP\",\n\t\"cep\":\"01139-050\",\n\t\"bandeira\":{\n\t\t\"idBandeira\":2\n\t}\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ClienteDaUnidade",
+			"description": "",
+			"item": [
+				{
+					"name": "cliente_da_unidade GET",
+					"request": {
+						"url": "http://localhost:8080/cliente_da_unidade",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"cpf\": \"446.442.348-50\",\n\t\"nome\": \"Samuel Rocha da Silva\"\t\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "cliente_da_unidade POST",
+					"request": {
+						"url": "http://localhost:8080/cliente_da_unidade",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"cpf\": \"054.111.150-78\",\r\n    \"nome\": \"José Caldeira Firmino\"\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "cliente_da_unidade PUT",
+					"request": {
+						"url": "http://localhost:8080/cliente_da_unidade/1",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"cpf\": \"446.442.348-50\",\n\t\"nome\": \"Samuel Rocha da Silva\"\t\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "cliente_da_unidade DELETE",
+					"request": {
+						"url": "http://localhost:8080/cliente_da_unidade/1",
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"cpf\": \"446.442.348-50\",\n\t\"nome\": \"Samuel Rocha da Silva\"\t\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Bloco",
+			"description": "",
+			"item": [
+				{
+					"name": "bloco GET",
+					"request": {
+						"url": "http://localhost:8080/bloco",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nome\": \"BLOCO A1\",\n\t\"empreendimento\": {\n\t\t\"idEmpreendimento\":1\n\t}\t\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "bloco POST",
+					"request": {
+						"url": "http://localhost:8080/bloco",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"nome\": \"BLOCO A3\",\r\n    \"empreendimento\": {\r\n        \"idEmpreendimento\": 1\r\n    }\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "bloco PUT",
+					"request": {
+						"url": "http://localhost:8080/bloco/1",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nome\": \"BLOCO A1\",\n\t\"empreendimento\": {\n\t\t\"idEmpreendimento\":1\n\t}\t\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "bloco DELETE",
+					"request": {
+						"url": "http://localhost:8080/bloco/1",
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"nome\": \"BLOCO A1\",\n\t\"empreendimento\": {\n\t\t\"idEmpreendimento\":1\n\t}\t\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Unidade",
+			"description": "",
+			"item": [
+				{
+					"name": "unidade GET",
+					"request": {
+						"url": "http://localhost:8080/unidade",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"numero\": \"APTO 6\",\n\t\"bloco\": {\n\t\t\"idBloco\": 33\n\t},\n\t\"clienteDaUnidade\":{\n\t\t\"idClienteDaUnidade\": 6\n\t}\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "unidade POST",
+					"request": {
+						"url": "http://localhost:8080/unidade",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"numero\": \"APTO 6\",\n\t\"bloco\": {\n\t\t\"idBloco\": 33\n\t},\n\t\"clienteDaUnidade\":{\n\t\t\"idClienteDaUnidade\": 6\n\t}\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "unidade PUT",
+					"request": {
+						"url": "http://localhost:8080/unidade/1",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"numero\": \"APTO 6\",\n\t\"bloco\": {\n\t\t\"idBloco\": 33\n\t},\n\t\"clienteDaUnidade\":{\n\t\t\"idClienteDaUnidade\": 6\n\t}\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "unidade DELETE",
+					"request": {
+						"url": "http://localhost:8080/unidade/1",
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"numero\": \"APTO 6\",\n\t\"bloco\": {\n\t\t\"idBloco\": 33\n\t},\n\t\"clienteDaUnidade\":{\n\t\t\"idClienteDaUnidade\": 6\n\t}\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "AtividadeAgendada",
+			"description": "",
+			"item": [
+				{
+					"name": "atividade_agendada GET",
+					"request": {
+						"url": "http://localhost:8080/atividade_agendada",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"dataInicio\": \"12/04/2021\",\n\t\"assunto\": \"Vazamento na Pia\",\n\t\"tipoAtividade\": {\n\t\t\"idTipoAtividade\": 2\n\t},\n\t\"ocorrencia\":{\n\t\t\"descricao\": \"Poderiam vir o quanto antes corrigir um vazamento na Pia da minha cozinha? Um dos canos estourou e está indo água para todo lado! :(\",\n\t\t\"unidade\":{\n\t\t\t\"idUnidade\":6\n\t\t}\n\t}\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "atividade_agendada POST",
+					"request": {
+						"url": "http://localhost:8080/atividade_agendada",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"dataInicio\": \"12/04/2021\",\n\t\"assunto\": \"Vazamento na Pia\",\n\t\"tipoAtividade\": {\n\t\t\"idTipoAtividade\": 2\n\t},\n\t\"ocorrencia\":{\n\t\t\"descricao\": \"Poderiam vir o quanto antes corrigir um vazamento na Pia da minha cozinha? Um dos canos estourou e está indo água para todo lado! :(\",\n\t\t\"unidade\":{\n\t\t\t\"idUnidade\":6\n\t\t}\n\t}\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "atividade_agendada PUT",
+					"request": {
+						"url": "http://localhost:8080/atividade_agendada/1",
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"dataInicio\": \"12/04/2021\",\n\t\"assunto\": \"Vazamento na Pia\",\n\t\"tipoAtividade\": {\n\t\t\"idTipoAtividade\": 2\n\t},\n\t\"ocorrencia\":{\n\t\t\"descricao\": \"Poderiam vir o quanto antes corrigir um vazamento na Pia da minha cozinha? Um dos canos estourou e está indo água para todo lado! :(\",\n\t\t\"unidade\":{\n\t\t\t\"idUnidade\":6\n\t\t}\n\t}\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "atividade_agendada PUT copy",
+					"request": {
+						"url": "http://localhost:8080/atividade_agendada/1",
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"dataInicio\": \"12/04/2021\",\n\t\"assunto\": \"Vazamento na Pia\",\n\t\"tipoAtividade\": {\n\t\t\"idTipoAtividade\": 2\n\t},\n\t\"ocorrencia\":{\n\t\t\"descricao\": \"Poderiam vir o quanto antes corrigir um vazamento na Pia da minha cozinha? Um dos canos estourou e está indo água para todo lado! :(\",\n\t\t\"unidade\":{\n\t\t\t\"idUnidade\":6\n\t\t}\n\t}\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "atividade_agendada/agendamentos_no_dia",
+					"request": {
+						"url": {
+							"raw": "http://localhost:8080/atividade_agendada/agendamentos_no_dia?dataInicio=12/04/2021",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"atividade_agendada",
+								"agendamentos_no_dia"
+							],
+							"query": [
+								{
+									"key": "dataInicio",
+									"value": "12/04/2021",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "atividade_agendada/calendario_agendamento",
+					"request": {
+						"url": {
+							"raw": "http://localhost:8080/atividade_agendada/calendario_agendamento?mes=4&ano=2021&idEmpreendimento=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"atividade_agendada",
+								"calendario_agendamento"
+							],
+							"query": [
+								{
+									"key": "mes",
+									"value": "4",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "ano",
+									"value": "2021",
+									"equals": true,
+									"description": ""
+								},
+								{
+									"key": "idEmpreendimento",
+									"value": "1",
+									"equals": true,
+									"description": ""
+								}
+							],
+							"variable": []
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"description": ""
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

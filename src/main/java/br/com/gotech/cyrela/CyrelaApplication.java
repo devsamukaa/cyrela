@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CyrellaApplication {
+public class CyrelaApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CyrellaApplication.class, args);
+		SpringApplication.run(CyrelaApplication.class, args);
 	}
 
 }

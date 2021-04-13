@@ -43,20 +43,23 @@ public class AtividadeAgendadaResource {
 
         List<AtividadeAgendadaEntity> atividadesDoDia =
                 atividadeAgendadaRepository.findByDataInicioAndOcorrencia_Unidade_Bloco_Empreendimento_IdEmpreendimento(
-                        DateHelper.parseDate(DateHelper.toDateString(atividadeAgendada.getDataInicio())),
+                        atividadeAgendada.getDataInicio(),
                         unidade
                                 .getBloco()
                                 .getEmpreendimento()
                                 .getIdEmpreendimento()
                 );
 
-        if(atividadesDoDia.size() < 3){
-            return atividadeAgendadaRepository.save(atividadeAgendada);
-        }else{
+        Calendar dateCalendar = Calendar.getInstance();
+        dateCalendar.setTime(atividadeAgendada.getDataInicio());
+
+        if((atividadesDoDia.size() >= 3)){
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "A data informada está indisponível para novos agendamentos nesse empreendimento.");
+        }else if(dateCalendar.get(Calendar.DAY_OF_WEEK) == 7 || dateCalendar.get(Calendar.DAY_OF_WEEK) == 1){
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "A data informada não pode ser um dia de final de semana. Apenas: seg, ter, qua, qui ou sex.");
+        }else {
+            return atividadeAgendadaRepository.save(atividadeAgendada);
         }
-
-
     }
 
     @PutMapping("/{id}")

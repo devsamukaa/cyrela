@@ -104,9 +104,10 @@ Com base na data e ID de empreedimento enviados, retorna as atividades agendadas
 ##### 2. Importe a Collection das APIs
 1. Tenha o Postman instalado em seu computador;
 2. Baixe separadamente o arquivo da versão que mais se adequa ao seu Postman `(v1 ou v2)`;
+
+[Collection v1](https://github.com/samueltj/cyrela/blob/main/src/main/resources/misc/cyrela_collection_v1.json) | [Collection v2](https://github.com/samueltj/cyrela/blob/main/src/main/resources/misc/cyrela_collection_v2.json)
+
 3. Importe a Collection que mais se adequa.
-[Collection v1](https://github.com/samueltj/cyrela/blob/main/src/main/resources/misc/cyrela_collection_v1.json)
-[Collection v2](https://github.com/samueltj/cyrela/blob/main/src/main/resources/misc/cyrela_collection_v2.json)
 ![Collection das APIs](https://semparar.vteximg.com.br/arquivos/en_cy_ps.png?v=3)
 
 ##### 3. Crie seus próprios registros, ou insira em cada API os dados base que criamos para testar

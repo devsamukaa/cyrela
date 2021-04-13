@@ -96,7 +96,7 @@ Com base na data e ID de empreedimento enviados, retorna as atividades agendadas
 ![Evidência de funcionamento do calendário de agendamentos](https://semparar.vteximg.com.br/arquivos/ev_fn_ag.png?v=1)
 
 ## Para testar as APIs
-##### 1. Clone do Projeto + Instalação do banco de dados H2
+##### 1. Clone do Projeto
 1. Realize o clone deste projeto;
 2. Abra este projeto com a IDE IntelliJ e realize o download de todas as dependências;
 3. Execute o `"Run"` no método `main(String[] args)` na Classe `src/main/java/br.com/gotech/cyrela/CyrelaApplication`, conforme à imagem abaixo.
@@ -110,7 +110,7 @@ Com base na data e ID de empreedimento enviados, retorna as atividades agendadas
 3. Importe a Collection que mais se adequa.
 ![Collection das APIs](https://semparar.vteximg.com.br/arquivos/en_cy_ps.png?v=3)
 
-##### 3. Crie seus próprios registros, ou insira em cada API os dados base que criamos para testar
+##### 3. Crie seus próprios registros, ou insira em cada API os dados da base que criamos para testar
 1. Baixe separadamente o arquivo `cyrela_data_base.json` que possui os `"body's"` de cada requisição;
 [cyrela_data_base.json](https://github.com/samueltj/cyrela/blob/main/src/main/resources/misc/cyrela_data_base.json)
 2. Insira em cada API o trecho correspondente, e realize os cadastros através do tipo `POST`.

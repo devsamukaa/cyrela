@@ -1,248 +1,247 @@
-[
-    {
-        "idAtividadeAgendada": 1,
-        "dataInicio": "2021-04-12T03:00:00.000+00:00",
-        "dataTermino": null,
-        "assunto": "Instalação da Pia",
-        "tipoAtividade": {
-            "idTipoAtividade": 1,
-            "nome": "Vistoria"
-        },
-        "ocorrencia": {
-            "idOcorrencia": 1,
-            "descricao": "Hoje, dia 10/04/2021, fui fazer a primeira visita ao apartamento e está muito lindo, tudo perfeito, notei apenas que a pia não foi instalada. Vocês poderiam vir na segunda-feira para verificar o porquê e dar andamento na instalação por favor? Obrigada!",
-            "unidade": {
-                "idUnidade": 1,
-                "numero": "APTO 1",
-                "bloco": {
-                    "idBloco": 1,
-                    "nome": "BLOCO A1",
-                    "empreendimento": {
-                        "idEmpreendimento": 1,
-                        "nome": "Vivaz Estação Guaianases",
-                        "logradouro": "Rua Salvador Gianetti",
-                        "numero": "201",
-                        "bairro": "Guaianases",
-                        "cidade": "São Paulo",
-                        "uf": "SP",
-                        "cep": "08410-000",
-                        "bandeira": {
-                            "idBandeira": 3,
-                            "nome": "Vivaz"
-                        }
-                    }
-                },
-                "clienteDaUnidade": {
-                    "idClienteDaUnidade": 1,
-                    "cpf": "545.753.740-40",
-                    "nome": "Karina Rocha dos Santos"
-                }
-            }
-        }
+
+// Abaixo os dados na nossa base de dados considerados para as evidências enviadas.
+
+// Eles devem ser copiados e colados no body das requisições que disponibilizamos para serem importadas no postman (uma inserção por vez).
+
+// É importante que sejam cadastrados na ordem abaixo, para que os registros peguem as chaves corretas
+
+// BANDEIRA - POST
+{
+    "nome": "Cyrela"
+}
+
+{
+    "nome": "Living"
+}
+
+{
+    "nome": "Vivaz"
+}
+
+
+// TIPO ATIVIDADE AGENDADA - POST
+{
+    "nome": "Vistoria"
+}
+
+{
+    "nome": "Manutenção"
+}
+
+{
+    "nome": "Vistoria e Manutenção"
+}
+
+// EMPREENDIMENTO - POST
+{
+    "nome": "Vivaz Estação Guaianases",
+    "logradouro": "Rua Salvador Gianetti",
+    "numero": "201",
+    "bairro": "Guaianases",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "cep": "08410-000",
+    "bandeira": {
+        "idBandeira": 3
+    }
+}
+
+{
+    "nome": "Vivaz Vila Guilherme",
+    "logradouro": "Av. Joaquina Ramalho",
+    "numero": "570",
+    "bairro": "Vila Guilherme",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "cep": "02065-000",
+    "bandeira": {
+        "idBandeira": 3
+    }
+}
+
+{
+    "nome": "Cyrela For You Moema",
+    "logradouro": "Alameda dos Arapanés",
+    "numero": "1441",
+    "bairro": "Moema",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "cep": "04524-003",
+    "bandeira": {
+        "idBandeira": 1
+    }
+}
+
+{
+    "nome": "Living Adalberto Kemeny",
+    "logradouro": "Rua Adalberto Kemeny",
+    "numero": "119",
+    "bairro": "Barra Funda",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "cep": "01139-050",
+    "bandeira": {
+        "idBandeira": 2
+    }
+}
+
+
+// CLIENTE DA UNIDADE - POST
+{
+    "cpf": "545.753.740-40",
+    "nome": "Karina Rocha dos Santos"
+}
+
+{
+    "cpf": "447.854.780-71",
+    "nome": "Samuel Rocha da Silva"
+}
+
+{
+    "cpf": "378.772.980-13",
+    "nome": "Francisco Carlos da Silva"
+}
+
+{
+    "cpf": "710.611.140-66",
+    "nome": "Edison Rocha da Silva"
+}
+
+{
+    "cpf": "577.261.250-63",
+    "nome": "Maria Lúcia Caldeira"
+}
+
+{
+    "cpf": "054.111.150-78",
+    "nome": "José Caldeira Firmino"
+}
+
+
+//BLOCO - POST
+{
+    "nome": "BLOCO A1",
+    "empreendimento": {
+        "idEmpreendimento": 1
+    }
+}
+
+{
+    "nome": "BLOCO A2",
+    "empreendimento": {
+        "idEmpreendimento": 1
+    }
+}
+
+{
+    "nome": "BLOCO A3",
+    "empreendimento": {
+        "idEmpreendimento": 1
+    }
+}
+
+
+//UNIDADE - POST
+{
+    "numero": "APTO 1",
+    "bloco": {
+        "idBloco": 1
     },
-    {
-        "idAtividadeAgendada": 1552,
-        "dataInicio": "2021-04-12T03:00:00.000+00:00",
-        "dataTermino": null,
-        "assunto": "Rachadura na parede",
-        "tipoAtividade": {
-            "idTipoAtividade": 1,
-            "nome": "Vistoria"
-        },
-        "ocorrencia": {
-            "idOcorrencia": 33,
-            "descricao": "Poderia agendar uma vistoria para verificar uma rachadura que ocorreu na parede da sala por favor?",
-            "unidade": {
-                "idUnidade": 2,
-                "numero": "APTO 2",
-                "bloco": {
-                    "idBloco": 2,
-                    "nome": "BLOCO A2",
-                    "empreendimento": {
-                        "idEmpreendimento": 1,
-                        "nome": "Vivaz Estação Guaianases",
-                        "logradouro": "Rua Salvador Gianetti",
-                        "numero": "201",
-                        "bairro": "Guaianases",
-                        "cidade": "São Paulo",
-                        "uf": "SP",
-                        "cep": "08410-000",
-                        "bandeira": {
-                            "idBandeira": 3,
-                            "nome": "Vivaz"
-                        }
-                    }
-                },
-                "clienteDaUnidade": {
-                    "idClienteDaUnidade": 2,
-                    "cpf": "447.854.780-71",
-                    "nome": "Samuel Rocha da Silva"
-                }
-            }
-        }
+    "clienteDaUnidade": {
+        "idClienteDaUnidade": 1
+    }
+}
+
+{
+    "numero": "APTO 2",
+    "bloco": {
+        "idBloco": 1
     },
-    {
-        "idAtividadeAgendada": 1553,
-        "dataInicio": "2021-04-12T03:00:00.000+00:00",
-        "dataTermino": null,
-        "assunto": "Vazamento na Pia",
-        "tipoAtividade": {
-            "idTipoAtividade": 2,
-            "nome": "Manutenção"
-        },
-        "ocorrencia": {
-            "idOcorrencia": 34,
-            "descricao": "Poderiam vir o quanto antes corrigir um vazamento na Pia da minha cozinha? Um dos canos estourou e está indo água para todo lado! :(",
-            "unidade": {
-                "idUnidade": 3,
-                "numero": "APTO 3",
-                "bloco": {
-                    "idBloco": 3,
-                    "nome": "BLOCO A3",
-                    "empreendimento": {
-                        "idEmpreendimento": 1,
-                        "nome": "Vivaz Estação Guaianases",
-                        "logradouro": "Rua Salvador Gianetti",
-                        "numero": "201",
-                        "bairro": "Guaianases",
-                        "cidade": "São Paulo",
-                        "uf": "SP",
-                        "cep": "08410-000",
-                        "bandeira": {
-                            "idBandeira": 3,
-                            "nome": "Vivaz"
-                        }
-                    }
-                },
-                "clienteDaUnidade": {
-                    "idClienteDaUnidade": 3,
-                    "cpf": "378.772.980-13",
-                    "nome": "Francisco Carlos da Silva"
-                }
-            }
-        }
+    "clienteDaUnidade": {
+        "idClienteDaUnidade": 2
+    }
+}
+
+{
+    "numero": "APTO 3",
+    "bloco": {
+        "idBloco": 1
     },
-    {
-        "idAtividadeAgendada": 3152,
-        "dataInicio": "2021-04-12T03:00:00.000+00:00",
-        "dataTermino": null,
-        "assunto": "Vazamento na Pia",
-        "tipoAtividade": {
-            "idTipoAtividade": 2,
-            "nome": "Manutenção"
-        },
-        "ocorrencia": {
-            "idOcorrencia": 65,
-            "descricao": "Poderiam vir o quanto antes corrigir um vazamento na Pia da minha cozinha? Um dos canos estourou e está indo água para todo lado! :(",
-            "unidade": {
-                "idUnidade": 6,
-                "numero": "APTO 6",
-                "bloco": {
-                    "idBloco": 33,
-                    "nome": "BL_CY_MO A1",
-                    "empreendimento": {
-                        "idEmpreendimento": 3,
-                        "nome": "Cyrela For You Moema",
-                        "logradouro": "Alameda dos Arapanés",
-                        "numero": "1441",
-                        "bairro": "Moema",
-                        "cidade": "São Paulo",
-                        "uf": "SP",
-                        "cep": "04524-003",
-                        "bandeira": {
-                            "idBandeira": 1,
-                            "nome": "Cyrela"
-                        }
-                    }
-                },
-                "clienteDaUnidade": {
-                    "idClienteDaUnidade": 6,
-                    "cpf": "054.111.150-78",
-                    "nome": "José Caldeira Firmino"
-                }
-            }
-        }
+    "clienteDaUnidade": {
+        "idClienteDaUnidade": 3
+    }
+}
+
+{
+    "numero": "APTO 4",
+    "bloco": {
+        "idBloco": 1
     },
-    {
-        "idAtividadeAgendada": 3153,
-        "dataInicio": "2021-04-12T03:00:00.000+00:00",
-        "dataTermino": null,
-        "assunto": "Vazamento na Pia",
-        "tipoAtividade": {
-            "idTipoAtividade": 2,
-            "nome": "Manutenção"
-        },
-        "ocorrencia": {
-            "idOcorrencia": 66,
-            "descricao": "Poderiam vir o quanto antes corrigir um vazamento na Pia da minha cozinha? Um dos canos estourou e está indo água para todo lado! :(",
-            "unidade": {
-                "idUnidade": 6,
-                "numero": "APTO 6",
-                "bloco": {
-                    "idBloco": 33,
-                    "nome": "BL_CY_MO A1",
-                    "empreendimento": {
-                        "idEmpreendimento": 3,
-                        "nome": "Cyrela For You Moema",
-                        "logradouro": "Alameda dos Arapanés",
-                        "numero": "1441",
-                        "bairro": "Moema",
-                        "cidade": "São Paulo",
-                        "uf": "SP",
-                        "cep": "04524-003",
-                        "bandeira": {
-                            "idBandeira": 1,
-                            "nome": "Cyrela"
-                        }
-                    }
-                },
-                "clienteDaUnidade": {
-                    "idClienteDaUnidade": 6,
-                    "cpf": "054.111.150-78",
-                    "nome": "José Caldeira Firmino"
-                }
-            }
-        }
+    "clienteDaUnidade": {
+        "idClienteDaUnidade": 4
+    }
+}
+
+{
+    "numero": "APTO 5",
+    "bloco": {
+        "idBloco": 1
     },
-    {
-        "idAtividadeAgendada": 3154,
-        "dataInicio": "2021-04-12T03:00:00.000+00:00",
-        "dataTermino": null,
-        "assunto": "Vazamento na Pia",
-        "tipoAtividade": {
-            "idTipoAtividade": 2,
-            "nome": "Manutenção"
-        },
-        "ocorrencia": {
-            "idOcorrencia": 67,
-            "descricao": "Poderiam vir o quanto antes corrigir um vazamento na Pia da minha cozinha? Um dos canos estourou e está indo água para todo lado! :(",
-            "unidade": {
-                "idUnidade": 6,
-                "numero": "APTO 6",
-                "bloco": {
-                    "idBloco": 33,
-                    "nome": "BL_CY_MO A1",
-                    "empreendimento": {
-                        "idEmpreendimento": 3,
-                        "nome": "Cyrela For You Moema",
-                        "logradouro": "Alameda dos Arapanés",
-                        "numero": "1441",
-                        "bairro": "Moema",
-                        "cidade": "São Paulo",
-                        "uf": "SP",
-                        "cep": "04524-003",
-                        "bandeira": {
-                            "idBandeira": 1,
-                            "nome": "Cyrela"
-                        }
-                    }
-                },
-                "clienteDaUnidade": {
-                    "idClienteDaUnidade": 6,
-                    "cpf": "054.111.150-78",
-                    "nome": "José Caldeira Firmino"
-                }
-            }
+    "clienteDaUnidade": {
+        "idClienteDaUnidade": 5
+    }
+}
+
+{
+    "numero": "APTO 6",
+    "bloco": {
+        "idBloco": 1
+    },
+    "clienteDaUnidade": {
+        "idClienteDaUnidade": 6
+    }
+}
+
+//ATIVIDADE AGENDADA - POST
+{
+    "dataInicio": "12/04/2021",
+    "assunto": "Rachadura nas paredes",
+    "tipoAtividade": {
+        "idTipoAtividade": 2
+    },
+    "ocorrencia": {
+        "descricao": "Hoje pela manhã ocorreu uma rachadura no teto, e gostaria de agendar uma vistoria, pois faz apenas 1 ano que me mudei para o apartamento, e acredito que esteja dentro da garantia",
+        "unidade": {
+            "idUnidade": 1
         }
     }
-]
+}
+
+{
+    "dataInicio": "12/04/2021",
+    "assunto": "Instalação da Pia da Cozinha",
+    "tipoAtividade": {
+        "idTipoAtividade": 1
+    },
+    "ocorrencia": {
+        "descricao": "Hoje, dia 10/04/2021, fui fazer a primeira visita ao apartamento e está muito bacana, bem bonito mesmo, notei apenas que a pia não foi instalada. Vocês poderiam vir na segunda-feira para verificar o porquê e dar andamento na instalação por favor? Obrigado!",
+        "unidade": {
+            "idUnidade": 2
+        }
+    }
+}
+
+{
+    "dataInicio": "12/04/2021",
+    "assunto": "Chuveiro não aquece",
+    "tipoAtividade": {
+        "idTipoAtividade": 3
+    },
+    "ocorrencia": {
+        "descricao": "Poderiam enviar a equipe técnica de vocês o quanto antes verificar o que pode estar ocorrendo com meu chuveiro, por favor?",
+        "unidade": {
+            "idUnidade": 3
+        }
+    }
+}
+

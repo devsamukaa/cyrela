@@ -5,8 +5,8 @@ Esta é uma Solução de API REST desenvolvida pelo time GoTech para realizar o 
 ![Modelagem do banco de dados](https://semparar.vteximg.com.br/arquivos/tb_cs_cy.png?v=1)
 
 ## Regras de negócio que consideramos para cadastrar Ocorrências e Atividades Agendadas
-> 1. `Ocorrências / Atividades Agendadas` só podem ser agendadas para dias da semana (seg, ter, qua, qui, sex).
-> 2. Só podem ser cadastradas `3 Ocorrências / Atividades Agendadas` por dia e por empreendimento.
+1. `Ocorrências / Atividades Agendadas` só podem ser agendadas para dias da semana (seg, ter, qua, qui, sex).
+2. Só podem ser cadastradas `3 Ocorrências / Atividades Agendadas` por dia e por empreendimento.
 
 ## Endpoints especiais que desenvolvemos para o case Cyrela
 ##### 1. Dias disponíveis para agendamento no mês, por empreendimento
@@ -110,7 +110,7 @@ Com base na data e ID de empreedimento enviados, retorna as atividades agendadas
 [Collection v2](https://github.com/samueltj/cyrela/blob/main/src/main/resources/misc/cyrela_collection_v2.json)
 ![Collection das APIs](https://semparar.vteximg.com.br/arquivos/en_cy_ps.png?v=3)
 
-##### 3. Crie seus próprios registros, ou insira em cada API a base padrão que criamos para testar
-1. Baixe separadamente o arquivo `cyrela_data_base.json` que possui os "body's" de cada endpoint;
+##### 3. Crie seus próprios registros, ou insira em cada API os dados base que criamos para testar
+1. Baixe separadamente o arquivo `cyrela_data_base.json` que possui os `"body's"` de cada requisição;
 [cyrela_data_base.json](https://github.com/samueltj/cyrela/blob/main/src/main/resources/misc/cyrela_data_base.json)
-2. Insira cada parte na API correspondente, e realize os cadastros.
+2. Insira em cada API o trecho correspondente, e realize os cadastros através do tipo `POST`.

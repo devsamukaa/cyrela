@@ -108,10 +108,10 @@ Com base na data e ID de empreedimento enviados, retorna as atividades agendadas
 
 [Collection v1](https://github.com/samueltj/cyrela/blob/main/src/main/resources/misc/cyrela_collection_v1.json) | [Collection v2](https://github.com/samueltj/cyrela/blob/main/src/main/resources/misc/cyrela_collection_v2.json)
 
-3. Importe a Collection que mais se adequa.
+3. Após importar a versão adequada, será possível acessar as APIs dentro do Postman
 ![Collection das APIs](https://semparar.vteximg.com.br/arquivos/en_cy_ps.png?v=3)
 
 ##### 3. Crie seus próprios registros, ou insira em cada API os dados da base que criamos para testar
 1. Baixe separadamente o arquivo `cyrela_data_base.json` que possui os `"body's"` de cada requisição;
 [cyrela_data_base.json](https://github.com/samueltj/cyrela/blob/main/src/main/resources/misc/cyrela_data_base.json)
-2. Insira em cada API o trecho correspondente, e realize os cadastros através do tipo `POST`.
+2. Insira no body de cada API o trecho correspondente, e realize os cadastros através do tipo de requisição `POST`.

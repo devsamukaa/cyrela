@@ -20,10 +20,10 @@ public class AtividadeAgendadaEntity implements Serializable {
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "produto")
     private Long idAtividadeAgendada;
 
-    @Column(name = "actualstart", nullable = false)
+    @Column(name = "dt_actualstart", nullable = false)
     private Date dataInicio;
 
-    @Column(name = "actualend")
+    @Column(name = "dt_actualend")
     private Date dataTermino;
 
     @Column(name = "ds_assunto", nullable = false, length = 150)

@@ -32,7 +32,7 @@ Com base no mês, ano e ID de empreedimento enviados, retorna os dias no mês di
 
 ##### 2. Agendamentos no dia por empreendimento
 
-Com base na data e ID de empreedimento enviados, retorna as atividades agendadas no dia para o empreendimento informado. O empreendimento é um parâmetro opcional, que quando não enviado, retorna todas as atividades agendadas para o dia informado, independente de empreendimento.
+Com base na data e ID de empreedimento enviados, retorna as atividades agendadas no dia para o empreendimento informado. O empreendimento é um parâmetro opcional, que quando não enviado, retorna todas as atividades agendadas para o dia informado, independente do empreendimento.
 
 > Dados da Requisição
 ```
@@ -104,7 +104,7 @@ Com base na data e ID de empreedimento enviados, retorna as atividades agendadas
 
 ##### 2. Importe a Collection das APIs
 1. Tenha o Postman instalado em seu computador;
-2. Baixe separadamente o arquivo da versão que mais se adequa ao seu Postman `(v1 ou v2)`;
+2. Baixe separadamente o arquivo na versão que mais se adequa ao seu Postman `(v1 ou v2)`;
 
 [Collection v1](https://github.com/samueltj/cyrela/blob/main/src/main/resources/misc/cyrela_collection_v1.json) | [Collection v2](https://github.com/samueltj/cyrela/blob/main/src/main/resources/misc/cyrela_collection_v2.json)
 
